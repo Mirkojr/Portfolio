@@ -1,0 +1,73 @@
+:root {
+    --react-color: #61dafb;
+    --node-color: #339933;
+    --sequelize-color: #2d3748;
+    --postgres-color: #4169e1;
+    --docker-color: #2496ed;
+    --express-color: #000000;
+    --java-color: #5382a1;
+    --github-color: #181717;
+    --html-color: #e34f26;
+    --css-color: #1572b6;
+    --js-color: #f7df1e;
+    --git-color: #f05032;
+    --supabase-color: #3ecf8e;
+    --typescript-color: #3178c6;
+    --tailwind-color: #06b6d4;
+    --godot-color: #478cbf;
+    --arduino-color: #00979d;
+}
+
+.bg-react { background-color: var(--react-color); color: #1a1a1a; }
+.bg-node { background-color: var(--node-color); color: #ffffff; }
+.bg-sequelize { background-color: var(--sequelize-color); color: #ffffff; }
+.bg-postgres { background-color: var(--postgres-color); color: #ffffff; }
+.bg-docker { background-color: var(--docker-color); color: #ffffff; }
+.bg-express { background-color: var(--express-color); color: #ffffff; }
+.bg-java { background-color: var(--java-color); color: #ffffff; }
+.bg-github { background-color: var(--github-color); color: #ffffff; }
+.bg-html { background-color: var(--html-color); color: #ffffff; }
+.bg-css { background-color: var(--css-color); color: #ffffff; }
+.bg-js { background-color: var(--js-color); color: #1a1a1a; }
+.bg-supabase { background-color: var(--supabase-color); color: #ffffff; }
+.bg-typescript { background-color: var(--typescript-color); color: #ffffff; }
+.bg-tailwind { background-color: var(--tailwind-color); color: #ffffff; }
+.bg-godot { background-color: var(--godot-color); color: #ffffff; }
+.bg-arduino { background-color: var(--arduino-color); color: #ffffff;}
+
+.tech-card .fa-html5 { color: var(--html-color); }
+.tech-card .fa-css3-alt { color: var(--css-color); }
+.tech-card .fa-js { color: var(--js-color); }
+.tech-card .fa-react { color: var(--react-color); }
+.tech-card .fa-node-js { color: var(--node-color); }
+.tech-card .fa-database { color: var(--postgres-color); }
+.tech-card .fa-git-alt { color: var(--git-color); }
+.tech-card .fa-docker { color: var(--docker-color); }
+
+.tech-card i {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.tech-card:hover i {
+    transform: scale(1.15);
+}
+
+.tech-card i {
+    font-size: 3rem; 
+    margin-bottom: 10px; 
+    display: inline-block;
+}
+
+.carousel-item img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Carrosel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, .55);
+    border-radius: 50%;
+    padding: 18px;
+}
